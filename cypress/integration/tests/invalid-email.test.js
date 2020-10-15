@@ -3,8 +3,8 @@ const faker = require('faker')
 let firstName = faker.name.findName() // fake full name
 let exampleSentence = faker.lorem.sentences() // fake sentence
 
-describe('test_name', function () {
-  it('what_it_does', function () {
+describe('invalid-email', function () {
+  it('inputs fake email into email box', function () {
     cy.visit('http://sample-website.beforeyoubid.com.au/contact')
 
     cy.viewport(375, 812)

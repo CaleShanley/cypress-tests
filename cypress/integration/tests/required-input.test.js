@@ -1,5 +1,5 @@
-describe('test_name', function () {
-  it('what_it_does', function () {
+describe('required-input', function () {
+  it('test to see if you can submit a form without any info', function () {
     cy.visit('http://sample-website.beforeyoubid.com.au/contact')
 
     cy.viewport(375, 812)

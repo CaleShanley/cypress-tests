@@ -4,8 +4,8 @@ let firstName = faker.name.findName() // fake full name
 let exampleEmail = faker.internet.exampleEmail() // fake email
 let exampleSentence = faker.lorem.sentences() // fake sentence
 
-describe('test_name', function () {
-  it('what_it_does', function () {
+describe('contact-us', function () {
+  it('inputs fake info into form', function () {
     cy.visit('http://sample-website.beforeyoubid.com.au/contact')
 
     cy.viewport(375, 812) // mobile resolution
