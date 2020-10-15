@@ -29,6 +29,6 @@ describe('test_name', function () {
       '.Wrapper-sc-7lyyy9-0 > .style__InternalContainer-sc-1wsspy8-0 > .style__RowContainer-sc-1wsspy8-3 > .style__Row-sc-1wsspy8-4 > .Button__ButtonWrapper-sj5hgh-0'
     ).click()
 
-    throw new Error("invalid emails shouldn't be allowed")
+    throw new Error("invalid emails shouldn't be")
   })
 })
