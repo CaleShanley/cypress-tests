@@ -1,6 +1,6 @@
 # Cypress Test Challage 
 
-[cypresshttps://www.cypress.io/]
+(https://www.cypress.io/ "Cypress Hompage")
 
 ### How to Install 
 
@@ -12,4 +12,4 @@
 
 ### Cypress Docs
 
-[docshttps://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell]
+(https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell "DOCS")
