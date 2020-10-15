@@ -2,7 +2,7 @@ describe('test_name', function () {
   it('what_it_does', function () {
     cy.visit('http://sample-website.beforeyoubid.com.au/contact')
 
-    cy.viewport(1440, 747)
+    cy.viewport(375, 812)
 
     cy.get(
       '.Wrapper-sc-7lyyy9-0 > .style__InternalContainer-sc-1wsspy8-0 > .style__RowContainer-sc-1wsspy8-3 > .style__Row-sc-1wsspy8-4 > .Button__ButtonWrapper-sj5hgh-0'
