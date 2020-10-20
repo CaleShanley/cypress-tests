@@ -20,7 +20,7 @@ describe('invalid_phone', function () {
 
     cy.get(
       '.style__Row-sc-1wsspy8-4 > .style__Item-sc-1wsspy8-7:nth-child(2) > .Input__Wrapper-sc-1kmdb1h-2 > .jss23 > .jss33'
-    ).type(exampleEmail) // invalid email to see if it accepts
+    ).type(exampleEmail)
     cy.get(
       '.style__Row-sc-1wsspy8-4:nth-child(2) > .style__Item-sc-1wsspy8-7 > .Input__Wrapper-sc-1kmdb1h-2 > .jss23 > .jss33'
     ).type('041')
